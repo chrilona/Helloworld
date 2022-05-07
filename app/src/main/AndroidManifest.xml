@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Helloworld">
         <activity
+            android:name=".SendM"
+            android:exported="false" />
+        <activity
+            android:name=".SendM"
+            android:exported="false" />
+        <activity
             android:name=".BmiCalculateActivity"
             android:exported="false" />
         <activity

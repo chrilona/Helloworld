@@ -26,31 +26,34 @@
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/etHeight"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_baseline_height_24" />
 
     <EditText
         android:id="@+id/etHeight"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="334dp"
+        android:layout_height="76dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="92dp"
         android:layout_marginEnd="24dp"
         android:ems="10"
         android:inputType="number"
+        android:text="Height"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imgHeight"
         app:layout_constraintTop_toBottomOf="@+id/etWeight" />
 
     <EditText
         android:id="@+id/etWeight"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_width="320dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="52dp"
         android:layout_marginEnd="24dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:text="Weight"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imgWeight"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -58,44 +61,48 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="72dp"
         android:layout_marginEnd="24dp"
         android:text="Calculate Bmi"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etHeight" />
 
     <TextView
         android:id="@+id/tvBmi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="153dp"
+        android:layout_height="43dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="32dp"
         android:text="Your results "
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.422"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/button" />
 
     <TextView
         android:id="@+id/tvWeight"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_width="141dp"
+        android:layout_height="32dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="13dp"
+        android:layout_marginTop="28dp"
         android:text="Weight in Kgs"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.361"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etWeight" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginTop="19dp"
+        android:layout_width="168dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="25dp"
         android:text="Height in cm"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etHeight" />
 
